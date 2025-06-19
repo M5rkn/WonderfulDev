@@ -10,6 +10,7 @@ body {
   color: #f3f4f6;
   margin: 0;
   position: relative;
+  transition: background 0.5s, color 0.5s, background-image 0.5s;
 }
 body.theme-dark {
   background: #111;
@@ -54,6 +55,7 @@ body.theme-light .socials a:hover {
   width: 100%;
   padding: 2rem 0 1rem 0;
   background: transparent;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .nav {
   display: flex;
@@ -62,18 +64,22 @@ body.theme-light .socials a:hover {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .logo {
   display: flex;
   align-items: center;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .star-logo {
   display: block;
   width: 3.5rem;
   height: 3.5rem;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .star-logo polygon {
   fill: #fff;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .arrow-anim {
   display: inline-block;
@@ -90,12 +96,13 @@ body.theme-light .socials a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .nav-list a {
   color: #f3f4f6;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.2s;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .nav-list a:hover {
   color: #3b82f6;
@@ -133,6 +140,7 @@ body.theme-light .theme-toggle svg {
   text-align: left;
   padding: 2rem;
   position: relative;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .hero h1 {
   font-family: 'JetBrains Mono', 'Fira Mono', monospace;
@@ -179,7 +187,7 @@ body.theme-light .theme-toggle svg {
 .socials a {
   color: #f3f4f6;
   font-size: 1.5rem;
-  transition: color 0.2s;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .socials a:hover {
   color: #22c55e;
@@ -190,6 +198,7 @@ footer.footer {
   font-size: 0.95rem;
   color: #d1d5db;
   background: transparent;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 /* Сетка-фон */
 body::before {
@@ -240,7 +249,7 @@ body.theme-light .hero p b, body.theme-light .hero .subtitle b {
   color: #3b82f6;
   text-decoration: none;
   border-bottom: 1.5px solid rgba(59,130,246,0.3);
-  transition: color 0.2s, border-color 0.2s;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
   font-weight: 600;
   padding-bottom: 1px;
 }
@@ -697,7 +706,7 @@ body.theme-light .about-line-content p, body.theme-light .about-line-content ul 
   font-weight: 600;
   text-decoration: none;
   font-size: 1.08rem;
-  transition: color 0.18s;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
 }
 .back-link:hover {
   color: #22c55e;
