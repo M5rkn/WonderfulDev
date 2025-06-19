@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — WonderfulDev</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-dark">
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html#home" class="logo logo-link" aria-label="star logo">
+        <svg class="star-logo" width="56" height="56" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 16 16" to="360 16 16" dur="3s" repeatCount="indefinite"/>
+            <polygon points="16,2 20,12 31,12 22,18 25,29 16,22 7,29 10,18 1,12 12,12"/>
+          </g>
+        </svg>
+      </a>
+      <ul class="nav-list">
+        <li><a href="about.html">Обо мне</a></li>
+        <li><a href="projects.html">Проекты</a></li>
+        <li><a href="contacts.html" class="active">Контакты</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Переключить тему">
+        <span class="theme-icon">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/><g><line x1="12" y1="2" x2="12" y2="4" stroke="currentColor" stroke-width="2"/><line x1="12" y1="20" x2="12" y2="22" stroke="currentColor" stroke-width="2"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2"/><line x1="2" y1="12" x2="4" y2="12" stroke="currentColor" stroke-width="2"/><line x1="20" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2"/></g></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" style="display:none;"><path d="M21 12.79A9 9 0 0 1 12.21 3a7 7 0 1 0 8.79 9.79z" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+        </span>
+      </button>
+    </nav>
+  </header>
+  <main class="contact-main">
+    <section class="contact-section">
+      <h1 class="contact-title">Контакты.</h1>
+      <p class="contact-desc">Свяжитесь со мной или напишите напрямую на <b>markoilynickiy@gmail.com</b></p>
+      <form class="contact-form" autocomplete="off">
+        <input type="text" name="name" placeholder="Имя" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Сообщение" required></textarea>
+        <button type="submit" class="btn-primary">Отправить сообщение</button>
+      </form>
+      <a href="index.html" class="back-link">Вернуться на главную <span class="arrow">→</span></a>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>© WonderfulDev, 2025</span>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html> 

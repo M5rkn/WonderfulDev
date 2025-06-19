@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Проекты — WonderfulDev</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html#home" class="logo logo-link" aria-label="star logo">
+        <svg class="star-logo" width="56" height="56" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 16 16" to="360 16 16" dur="3s" repeatCount="indefinite"/>
+            <polygon points="16,2 20,12 31,12 22,18 25,29 16,22 7,29 10,18 1,12 12,12"/>
+          </g>
+        </svg>
+      </a>
+      <ul class="nav-list">
+        <li><a href="about.html">Обо мне</a></li>
+        <li><a href="projects.html">Проекты</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/><g><line x1="12" y1="2" x2="12" y2="4" stroke="currentColor" stroke-width="2"/><line x1="12" y1="20" x2="12" y2="22" stroke="currentColor" stroke-width="2"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2"/><line x1="2" y1="12" x2="4" y2="12" stroke="currentColor" stroke-width="2"/><line x1="20" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2"/></g></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" style="display:none;"><path d="M21 12.79A9 9 0 0 1 12.21 3a7 7 0 1 0 8.79 9.79z" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+        </span>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="projects-section">
+      <h1 class="projects-title">Проекты.</h1>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Корпоративный сайт" class="project-img"/>
+          <h2 class="project-name">Корпоративный сайт</h2>
+          <p class="project-desc">Современный сайт для IT-компании с личным кабинетом, блогом и интеграцией с CRM.</p>
+          <div class="project-stack">React · Node.js · MongoDB · UI/UX · Docker</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Интернет-магазин" class="project-img"/>
+          <h2 class="project-name">Интернет-магазин</h2>
+          <p class="project-desc">Полнофункциональный e-commerce с корзиной, оплатой, фильтрами и админ-панелью.</p>
+          <div class="project-stack">Vue.js · Nuxt · Firebase · Stripe · SCSS</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Калькулятор стоимости" class="project-img"/>
+          <h2 class="project-name">Калькулятор стоимости</h2>
+          <p class="project-desc">Интерактивный калькулятор для расчёта стоимости разработки сайта под задачи клиента.</p>
+          <div class="project-stack">React · TypeScript · UI/UX · Figma</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="CRM-система" class="project-img"/>
+          <h2 class="project-name">CRM-система</h2>
+          <p class="project-desc">Внутренняя система для управления клиентами, задачами и аналитикой для бизнеса.</p>
+          <div class="project-stack">Vue.js · Node.js · MongoDB · REST API</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="UI/UX-дизайн" class="project-img"/>
+          <h2 class="project-name">UI/UX-дизайн</h2>
+          <p class="project-desc">Разработка прототипов и дизайн-макетов для мобильных и веб-приложений.</p>
+          <div class="project-stack">Figma · Adobe XD · UI/UX · Анимации</div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3c8b?auto=format&fit=crop&w=600&q=80" alt="Портал для стартапа" class="project-img"/>
+          <h2 class="project-name">Портал для стартапа</h2>
+          <p class="project-desc">Платформа для презентации и продвижения стартапа с блогом и формой обратной связи.</p>
+          <div class="project-stack">Next.js · TypeScript · SCSS · Vercel</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <small>© 2025 WonderfulDev. Все права защищены.</small>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html> 

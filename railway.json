@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "testjob2/", "use": "@railway/static" }
+  ],
+  "static": {
+    "public": "testjob2/"
+  }
+} 

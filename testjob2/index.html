@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио — WonderfulDev</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html#home" class="logo logo-link" aria-label="star logo">
+        <svg class="star-logo" width="56" height="56" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g>
+            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 16 16" to="360 16 16" dur="3s" repeatCount="indefinite"/>
+            <polygon points="16,2 20,12 31,12 22,18 25,29 16,22 7,29 10,18 1,12 12,12"/>
+          </g>
+        </svg>
+      </a>
+      <ul class="nav-list">
+        <li><a href="about.html">Обо мне</a></li>
+        <li><a href="projects.html">Проекты</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Переключить тему">
+        <span class="theme-icon">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2"/><g><line x1="12" y1="2" x2="12" y2="4" stroke="currentColor" stroke-width="2"/><line x1="12" y1="20" x2="12" y2="22" stroke="currentColor" stroke-width="2"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2"/><line x1="2" y1="12" x2="4" y2="12" stroke="currentColor" stroke-width="2"/><line x1="20" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="2"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2"/></g></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" style="display:none;"><path d="M21 12.79A9 9 0 0 1 12.21 3a7 7 0 1 0 8.79 9.79z" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+        </span>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <h1>Я — Марк</h1>
+      <p class="subtitle">Веб-разработчик. Преобразую идеи в элегантные и функциональные веб-проекты, объединяя креативный дизайн с современными технологиями.</p>
+      <a href="about.html" class="see-more">Подробнее обо мне <span class="arrow-anim">&rarr;</span></a>
+      <ul class="socials">
+        <li><a href="https://t.me/Marklill" aria-label="Telegram" target="_blank" rel="noopener">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21.75 3.75L2.25 10.5c-.75.25-.75.75-.125.95l4.75 1.5 1.75 5.5c.25.75.5.75 1 .5l2.5-2 5.25 3.85c.5.35.85.15.95-.45l3.25-15.25c.15-.7-.25-1-1-.8zM8.5 15.5l-.7-2.3 8.2-7.35-6.5 8.1z" fill="currentColor"/></svg>
+        </a></li>
+        <li><a href="https://github.com/M5rkn" aria-label="GitHub"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.49 2.87 8.3 6.84 9.64.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.17-1.1-1.48-1.1-1.48-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z" fill="currentColor"/></svg></a></li>
+        <li><a href="https://www.instagram.com/m5rkn/" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2" fill="none"/><rect x="8" y="8" width="8" height="8" rx="4" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="17" cy="7" r="1.5" fill="currentColor"/></svg></a></li>
+      </ul>
+    </section>
+    <section id="projects"></section>
+    <section id="contact"></section>
+  </main>
+  <footer class="footer">
+    <small>© 2025 WonderfulDev. Все права защищены.</small>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
