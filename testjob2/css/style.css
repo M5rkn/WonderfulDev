@@ -11,6 +11,7 @@ body {
   margin: 0;
   position: relative;
   transition: background 0.5s, color 0.5s, background-image 0.5s;
+  overflow-x: hidden;
 }
 body.theme-dark {
   background: #111;
@@ -213,6 +214,9 @@ body::before {
 main, .header, .footer { position: relative; z-index: 1; }
 html {
   scroll-behavior: smooth;
+}
+html, body, .header, .nav, .projects-section, .about-section, .contact-section, .projects-grid {
+  overflow-x: hidden;
 }
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(24px); }
@@ -518,6 +522,16 @@ body.theme-light .about-block p, body.theme-light .about-block ul {
   .about-blocks > :nth-child(4),
   .about-blocks > :nth-child(5) {
     grid-column: 1 / 2;
+  }
+  .star-logo {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}
+@media (max-width: 359px) {
+  .star-logo {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 
@@ -839,5 +853,55 @@ body.theme-light .lang-toggle:hover, body.theme-light .lang-toggle:focus {
   }
   .logo {
     margin-right: 0.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+  .nav {
+    padding: 0 0.2rem;
+  }
+  .nav-list {
+    gap: 0.3rem;
+  }
+  .nav-list a {
+    font-size: 0.95rem;
+    padding: 0 0.1em;
+  }
+  .header {
+    padding: 1.2rem 0 0.5rem 0;
+  }
+  .projects-section, .about-section, .contact-section {
+    padding: 0.7rem 0.2rem 1rem 0.2rem;
+  }
+  .projects-title, .about-title, .contact-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 359px) {
+  body {
+    font-size: 12.5px;
+  }
+  .nav {
+    padding: 0 0.05rem;
+  }
+  .nav-list {
+    gap: 0.12rem;
+  }
+  .nav-list a {
+    font-size: 0.85rem;
+    padding: 0 0.05em;
+  }
+  .header {
+    padding: 0.7rem 0 0.3rem 0;
+  }
+  .projects-section, .about-section, .contact-section {
+    padding: 0.3rem 0.05rem 0.7rem 0.05rem;
+  }
+  .projects-title, .about-title, .contact-title {
+    font-size: 1rem;
   }
 }
