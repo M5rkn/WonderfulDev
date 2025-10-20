@@ -1,0 +1,5 @@
+{
+  "builds": [
+    { "src": ".", "use": "@railway/static" }
+  ]
+} 
